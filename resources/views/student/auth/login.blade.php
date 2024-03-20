@@ -48,8 +48,7 @@
             <div class="col align-items-center flex-col">
                 <div class="text sign-in">
                     <h2>
-                        Marketing Manager 
-                        <p>Login</p>
+                        Student Login
                     </h2>
                     <p>
                         Visit the school's website to come up with unique and 
