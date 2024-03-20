@@ -32,15 +32,25 @@ Route::get('/marketing-manager/login', [MarketingManagerController::class, 'logi
 
 //test
 Route::get('/home', function () {
-    return view('admin/auth.dashboard');
+    return view('admin.home');
 });
 
 Route::get('/manage', function () {
-    return view('admin/auth.management.index');
+    return view('admin.action.index');
 });
 Route::get('/add', function () {
-    return view('admin/auth.management.add');
+    return view('admin.action.add');
 });
 Route::get('/edit', function () {
-    return view('admin/auth.management.edit');
+    return view('admin.action..edit');
+});
+
+Route::get('/coordinatorLogin', function () {
+    return view('coordinator/auth.login');
+});
+Route::get('/marketingManagerLogin', function () {
+    return view('marketingManager/auth.login');
+});
+Route::get('/studentLogin', function () {
+    return view('student/auth.login');
 });

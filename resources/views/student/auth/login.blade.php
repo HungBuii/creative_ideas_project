@@ -32,16 +32,11 @@
                                 <b>
                                     Forgot password?
                                 </b>
+                                <a href="#!"> Click here</a>
                             </p>
-                            <p>
-                                <span>
-                                    Don't have an account?
-                                </span>
-                                {{-- <b onclick="toggle()" class="pointer">
-                                    Sign up here
-                                </b> --}}
-                                <a href="">Sign up here</a>
-                            </p>
+                            <p><a href="coordinatorLogin">Marketing Manager Login</a></p>
+                            <p><a href="marketingManagerLogin">Marketing Coordinator Login</a></p>
+                            <p><a href="studentLogin">Student Login</a></p>
                         
                     </div>
 
@@ -53,7 +48,7 @@
             <div class="col align-items-center flex-col">
                 <div class="text sign-in">
                     <h2>
-                        Login Page
+                        Student Login
                     </h2>
                     <p>
                         Visit the school's website to come up with unique and 

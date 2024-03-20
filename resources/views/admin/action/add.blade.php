@@ -1,9 +1,9 @@
-@extends('auth/layout.layout.website')
+@extends('auth.layout.sidebar')
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Edit User</title>
+    <title>Add User</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -40,7 +40,7 @@
 						<li class="nav-item">
 							<a href="#!" class="pop-search"><i class="feather icon-search"></i></a>
 							<div class="search-bar">
-								<input type="text" class="form-control border-0 shadow-none" placeholder="Search hear">
+								<input type="text" class="form-control border-0 shadow-none" placeholder="Search here">
 								<button type="button" class="close" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
@@ -97,7 +97,6 @@
 									</div>
 									<ul class="pro-body">
 										<li><a href="user-profile.html" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
-										<li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i> Messages</a></li>
 									</ul>
 								</div>
 							</div>
@@ -117,13 +116,13 @@
                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="page-header-title">
-                            <h5 class="m-b-10">Edit User</h5>
+                            <h5 class="m-b-10">Add User</h5>
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
                             <li class="breadcrumb-item"><a href="home">Dashboard</a></li>
                             <li class="breadcrumb-item"><a href="manage">Account Management</a></li>
-                            <li class="breadcrumb-item"><a href="edit">Edit a User</a></li>
+                            <li class="breadcrumb-item"><a href="add">Add a User</a></li>
                         </ul>
                     </div>
                 </div>
@@ -140,7 +139,7 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-body">
-                        <h5>Edit a user</h5>
+                        <h5>Add a user</h5>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">

@@ -1,4 +1,4 @@
-@extends('auth/layout.layout.website')
+@extends('auth.layout.sidebar')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +41,7 @@
 						<li class="nav-item">
 							<a href="#!" class="pop-search"><i class="feather icon-search"></i></a>
 							<div class="search-bar">
-								<input type="text" class="form-control border-0 shadow-none" placeholder="Search hear">
+								<input type="text" class="form-control border-0 shadow-none" placeholder="Search here">
 								<button type="button" class="close" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
@@ -98,7 +98,6 @@
 									</div>
 									<ul class="pro-body">
 										<li><a href="user-profile.html" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
-										<li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i> Messages</a></li>
 									</ul>
 								</div>
 							</div>
