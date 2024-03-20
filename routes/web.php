@@ -28,3 +28,7 @@ Route::get('/admin/register-submit', [AdminController::class, 'register_submit']
 
 /* Marketing Manager */
 Route::get('/marketing-manager/login', [MarketingManagerController::class, 'login_view'])->name('manager_login'); // login
+
+Route::get('/login', function () {
+    return view('auth/layout.login');
+});
