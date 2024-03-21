@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Illuminate\Http\Request;
+use Illuminate\Auth\Middleware\Authenticate as Middleware;
+
+class Admin extends Middleware
+{
+    // public function handle(Request $request, Closure $next)
+    // {
+    //     return $next($request);
+    // }
+    protected function redirectTo(Request $request): ?string
+    {
+        return $request->expectsJson() ? null : route('admin_login');
+    }
+}
